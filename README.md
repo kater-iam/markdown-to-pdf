@@ -43,7 +43,7 @@ npm run preview
 
 ## GitHub Pagesへのデプロイ
 
-1. リポジトリのSettings > Pagesで、Sourceを「GitHub Actions」に設定
+1. リポジトリのSettings > Pagesで、Sourceを「GitHub Actions」に設定（必須）
 2. 以下のGitHub Actionsワークフローが自動的にビルドとデプロイを実行します
 
 **注意**: リポジトリ名が`markdown-to-pdf`以外の場合は、`vite.config.js`の`base`パスをリポジトリ名に合わせて変更してください。
